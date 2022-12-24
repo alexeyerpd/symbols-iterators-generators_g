@@ -1,3 +1,3 @@
 export function canIterate(obj) {
-    return typeof obj?.[Symbol.iterator] === 'function';
+  return typeof obj?.[Symbol.iterator] === 'function';
 }
